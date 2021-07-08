@@ -4,6 +4,12 @@
 __metadata:
   version: 4
 
+"@skates/core@workspace:packages/core":
+  version: 0.0.0-use.local
+  resolution: "@skates/core@workspace:packages/core"
+  languageName: unknown
+  linkType: soft
+
 "root-workspace-0b6124@workspace:.":
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."

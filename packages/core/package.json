@@ -1,0 +1,11 @@
+{
+  "name": "@skates/core",
+  "version": "1.0.0",
+  "author": "Junho Yeo <hanaro0704@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/junhoyeo/skates.git",
+    "directory": "packages/core"
+  }
+}
