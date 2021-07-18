@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "author": "Junho Yeo <hanaro0704@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/junhoyeo/skates",
+  "repository": "https://github.com/junhoyeo/roller-skates",
   "workspaces": [
     "packages/*"
   ]
