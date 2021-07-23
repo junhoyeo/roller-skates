@@ -4,7 +4,8 @@
   "author": "Junho Yeo <hanaro0704@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,9 @@
     "directory": "packages/core"
   },
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.14.5",
     "@types/jest": "^26.0.24",
     "jest": "^27.0.6",
     "typescript": "^4.3.5"
