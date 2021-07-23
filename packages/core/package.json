@@ -13,6 +13,7 @@
     "directory": "packages/core"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.8",
     "@babel/plugin-transform-modules-commonjs": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.14.5",
