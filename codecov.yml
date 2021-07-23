@@ -1,0 +1,10 @@
+coverage:
+  status:
+    project: no
+    patch: no
+
+flags:
+  core:
+    paths:
+      - packages/core
+    carryforward: true
