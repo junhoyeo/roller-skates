@@ -12,6 +12,9 @@
     "url": "https://github.com/junhoyeo/skates.git",
     "directory": "packages/hooks"
   },
+  "dependencies": {
+    "@roller-skates/core": "workspace:packages/core"
+  },
   "devDependencies": {
     "@babel/core": "^7.14.8",
     "@babel/plugin-transform-modules-commonjs": "^7.14.5",
