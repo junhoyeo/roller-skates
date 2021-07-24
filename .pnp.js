@@ -1386,7 +1386,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-typescript", "virtual:e44cecfb2a8d528be3737c9c286b76c6f04479918c1e6a4a3f5680ffd853d1df29a5b0db59184487c447a05c4b1dcb4c08a33755d84506beeb3934994ccbde78#npm:7.14.5"],
             ["@roller-skates/core", "workspace:packages/core"],
             ["@types/jest", "npm:26.0.24"],
+            ["@types/react", "npm:17.0.15"],
             ["jest", "virtual:e44cecfb2a8d528be3737c9c286b76c6f04479918c1e6a4a3f5680ffd853d1df29a5b0db59184487c447a05c4b1dcb4c08a33755d84506beeb3934994ccbde78#npm:27.0.6"],
+            ["react", "npm:17.0.2"],
+            ["react-dom", "virtual:10dbaeeeb315abc55960486438328bcde08db4c34f859422f8be1ddc4f12e07d2a5a212fc9553081e096cd718bc87d80d9b166977c1ff80b106d99721e128748#npm:17.0.2"],
             ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"]
           ],
           "linkType": "SOFT",
@@ -1530,6 +1533,36 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-prettier-npm-2.3.2-377cc404e1-7b425386aa.zip/node_modules/@types/prettier/",
           "packageDependencies": [
             ["@types/prettier", "npm:2.3.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/prop-types", [
+        ["npm:15.7.4", {
+          "packageLocation": "./.yarn/cache/@types-prop-types-npm-15.7.4-592896a9fe-ef15c425a9.zip/node_modules/@types/prop-types/",
+          "packageDependencies": [
+            ["@types/prop-types", "npm:15.7.4"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/react", [
+        ["npm:17.0.15", {
+          "packageLocation": "./.yarn/cache/@types-react-npm-17.0.15-d716ab592f-427cca327d.zip/node_modules/@types/react/",
+          "packageDependencies": [
+            ["@types/react", "npm:17.0.15"],
+            ["@types/prop-types", "npm:15.7.4"],
+            ["@types/scheduler", "npm:0.16.2"],
+            ["csstype", "npm:3.0.8"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/scheduler", [
+        ["npm:0.16.2", {
+          "packageLocation": "./.yarn/cache/@types-scheduler-npm-0.16.2-ba3a7d8c68-e78d1bb50c.zip/node_modules/@types/scheduler/",
+          "packageDependencies": [
+            ["@types/scheduler", "npm:0.16.2"]
           ],
           "linkType": "HARD",
         }]
@@ -2285,6 +2318,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["cssstyle", "npm:2.3.0"],
             ["cssom", "npm:0.3.8"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["csstype", [
+        ["npm:3.0.8", {
+          "packageLocation": "./.yarn/cache/csstype-npm-3.0.8-99cf1f37ff-e15233592a.zip/node_modules/csstype/",
+          "packageDependencies": [
+            ["csstype", "npm:3.0.8"]
           ],
           "linkType": "HARD",
         }]
@@ -3866,6 +3908,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["loose-envify", [
+        ["npm:1.4.0", {
+          "packageLocation": "./.yarn/cache/loose-envify-npm-1.4.0-6307b72ccf-5c3b47bbe5.zip/node_modules/loose-envify/",
+          "packageDependencies": [
+            ["loose-envify", "npm:1.4.0"],
+            ["js-tokens", "npm:4.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["lru-cache", [
         ["npm:6.0.0", {
           "packageLocation": "./.yarn/cache/lru-cache-npm-6.0.0-b4c8668fe1-b8b78353d2.zip/node_modules/lru-cache/",
@@ -4491,6 +4543,42 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["react", [
+        ["npm:17.0.2", {
+          "packageLocation": "./.yarn/cache/react-npm-17.0.2-99ba37d931-7d0dfebafe.zip/node_modules/react/",
+          "packageDependencies": [
+            ["react", "npm:17.0.2"],
+            ["loose-envify", "npm:1.4.0"],
+            ["object-assign", "npm:4.1.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["react-dom", [
+        ["npm:17.0.2", {
+          "packageLocation": "./.yarn/cache/react-dom-npm-17.0.2-f551215af1-960a74ff66.zip/node_modules/react-dom/",
+          "packageDependencies": [
+            ["react-dom", "npm:17.0.2"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:10dbaeeeb315abc55960486438328bcde08db4c34f859422f8be1ddc4f12e07d2a5a212fc9553081e096cd718bc87d80d9b166977c1ff80b106d99721e128748#npm:17.0.2", {
+          "packageLocation": "./.yarn/$$virtual/react-dom-virtual-01892ae60d/0/cache/react-dom-npm-17.0.2-f551215af1-960a74ff66.zip/node_modules/react-dom/",
+          "packageDependencies": [
+            ["react-dom", "virtual:10dbaeeeb315abc55960486438328bcde08db4c34f859422f8be1ddc4f12e07d2a5a212fc9553081e096cd718bc87d80d9b166977c1ff80b106d99721e128748#npm:17.0.2"],
+            ["@types/react", "npm:17.0.15"],
+            ["loose-envify", "npm:1.4.0"],
+            ["object-assign", "npm:4.1.1"],
+            ["react", "npm:17.0.2"],
+            ["scheduler", "npm:0.20.2"]
+          ],
+          "packagePeers": [
+            "@types/react",
+            "react"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["react-is", [
         ["npm:17.0.2", {
           "packageLocation": "./.yarn/cache/react-is-npm-17.0.2-091bbb8db6-3eff23f410.zip/node_modules/react-is/",
@@ -4608,6 +4696,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["saxes", "npm:5.0.1"],
             ["xmlchars", "npm:2.2.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["scheduler", [
+        ["npm:0.20.2", {
+          "packageLocation": "./.yarn/cache/scheduler-npm-0.20.2-90beaecfba-2ba121e53e.zip/node_modules/scheduler/",
+          "packageDependencies": [
+            ["scheduler", "npm:0.20.2"],
+            ["loose-envify", "npm:1.4.0"],
+            ["object-assign", "npm:4.1.1"]
           ],
           "linkType": "HARD",
         }]
