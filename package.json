@@ -5,5 +5,8 @@
   "repository": "https://github.com/junhoyeo/roller-skates",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
 }
