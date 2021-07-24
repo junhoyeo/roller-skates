@@ -25,12 +25,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       {
         "name": "@roller-skates/core",
         "reference": "workspace:packages/core"
+      },
+      {
+        "name": "@roller-skates/hooks",
+        "reference": "workspace:packages/hooks"
       }
     ],
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)|$))$)",
     "fallbackExclusionList": [
       ["@roller-skates/core", ["workspace:packages/core"]],
+      ["@roller-skates/hooks", ["workspace:packages/hooks"]],
       ["root-workspace-0b6124", ["workspace:."]]
     ],
     "fallbackPool": [
@@ -1358,6 +1363,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/core/",
           "packageDependencies": [
             ["@roller-skates/core", "workspace:packages/core"],
+            ["@babel/core", "npm:7.14.8"],
+            ["@babel/plugin-transform-modules-commonjs", "virtual:e44cecfb2a8d528be3737c9c286b76c6f04479918c1e6a4a3f5680ffd853d1df29a5b0db59184487c447a05c4b1dcb4c08a33755d84506beeb3934994ccbde78#npm:7.14.5"],
+            ["@babel/preset-react", "virtual:e44cecfb2a8d528be3737c9c286b76c6f04479918c1e6a4a3f5680ffd853d1df29a5b0db59184487c447a05c4b1dcb4c08a33755d84506beeb3934994ccbde78#npm:7.14.5"],
+            ["@babel/preset-typescript", "virtual:e44cecfb2a8d528be3737c9c286b76c6f04479918c1e6a4a3f5680ffd853d1df29a5b0db59184487c447a05c4b1dcb4c08a33755d84506beeb3934994ccbde78#npm:7.14.5"],
+            ["@types/jest", "npm:26.0.24"],
+            ["jest", "virtual:e44cecfb2a8d528be3737c9c286b76c6f04479918c1e6a4a3f5680ffd853d1df29a5b0db59184487c447a05c4b1dcb4c08a33755d84506beeb3934994ccbde78#npm:27.0.6"],
+            ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"]
+          ],
+          "linkType": "SOFT",
+        }]
+      ]],
+      ["@roller-skates/hooks", [
+        ["workspace:packages/hooks", {
+          "packageLocation": "./packages/hooks/",
+          "packageDependencies": [
+            ["@roller-skates/hooks", "workspace:packages/hooks"],
             ["@babel/core", "npm:7.14.8"],
             ["@babel/plugin-transform-modules-commonjs", "virtual:e44cecfb2a8d528be3737c9c286b76c6f04479918c1e6a4a3f5680ffd853d1df29a5b0db59184487c447a05c4b1dcb4c08a33755d84506beeb3934994ccbde78#npm:7.14.5"],
             ["@babel/preset-react", "virtual:e44cecfb2a8d528be3737c9c286b76c6f04479918c1e6a4a3f5680ffd853d1df29a5b0db59184487c447a05c4b1dcb4c08a33755d84506beeb3934994ccbde78#npm:7.14.5"],
