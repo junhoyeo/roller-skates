@@ -12,6 +12,12 @@
     "url": "https://github.com/junhoyeo/skates.git",
     "directory": "packages/hooks"
   },
+  "peerDependencies": {
+    "@roller-skates/core": "*",
+    "@roller-skates/types": "*",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.14.8",
     "@babel/plugin-transform-modules-commonjs": "^7.14.5",
