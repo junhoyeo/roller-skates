@@ -29,6 +29,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       {
         "name": "@roller-skates/hooks",
         "reference": "workspace:packages/hooks"
+      },
+      {
+        "name": "@roller-skates/types",
+        "reference": "workspace:packages/types"
       }
     ],
     "enableTopLevelFallback": true,
@@ -36,6 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "fallbackExclusionList": [
       ["@roller-skates/core", ["workspace:packages/core"]],
       ["@roller-skates/hooks", ["workspace:packages/hooks"]],
+      ["@roller-skates/types", ["workspace:packages/types"]],
       ["root-workspace-0b6124", ["workspace:."]]
     ],
     "fallbackPool": [
@@ -1401,6 +1406,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:e44cecfb2a8d528be3737c9c286b76c6f04479918c1e6a4a3f5680ffd853d1df29a5b0db59184487c447a05c4b1dcb4c08a33755d84506beeb3934994ccbde78#npm:27.0.6"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:10dbaeeeb315abc55960486438328bcde08db4c34f859422f8be1ddc4f12e07d2a5a212fc9553081e096cd718bc87d80d9b166977c1ff80b106d99721e128748#npm:17.0.2"],
+            ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"]
+          ],
+          "linkType": "SOFT",
+        }]
+      ]],
+      ["@roller-skates/types", [
+        ["workspace:packages/types", {
+          "packageLocation": "./packages/types/",
+          "packageDependencies": [
+            ["@roller-skates/types", "workspace:packages/types"],
             ["typescript", "patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"]
           ],
           "linkType": "SOFT",
