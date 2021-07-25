@@ -1,6 +1,6 @@
 import { Color } from '../Color';
 import { Config } from '../Config';
-import { RgbaString } from '../types/Rgb';
+import { RgbaString } from '@roller-skates/types';
 import { toAlphaRange, toRgbRange } from '../utils/filters';
 
 export const parseColorFromRgbaString = (

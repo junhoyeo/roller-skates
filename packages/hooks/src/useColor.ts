@@ -1,8 +1,7 @@
 import { useCallback, useState } from 'react';
 
 import { Color, Config, defaultConfig, parseColor } from '@roller-skates/core';
-import { ColorInput } from '@roller-skates/core/dist/types/ColorInput';
-import { RgbaObject } from '@roller-skates/core/dist/types/Rgb';
+import { ColorInput, RgbaObject } from '@roller-skates/types';
 
 export type SetColor = <NewString extends string>(
   nextColor:

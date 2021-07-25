@@ -1,5 +1,5 @@
 import { Config } from './Config';
-import { RgbaObject, RgbaString, RgbObject, RgbString } from './types/Rgb';
+import { RgbaObject, RgbaString, RgbObject, RgbString } from '@roller-skates/types';
 import { rgbaToHex } from './utils/rgbaToHex';
 
 type Strings = {

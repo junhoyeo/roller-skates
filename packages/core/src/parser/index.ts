@@ -1,7 +1,6 @@
 import { Color } from '../Color';
 import { Config } from '../Config';
-import { ColorInput } from '../types/ColorInput';
-import { RgbaString, RgbString } from '../types/Rgb';
+import { ColorInput, RgbaString, RgbString } from '@roller-skates/types';
 import { parseColorFromHexString } from './Hex';
 import { parseColorFromRgbString } from './Rgb';
 import { parseColorFromRgbaString } from './Rgba';

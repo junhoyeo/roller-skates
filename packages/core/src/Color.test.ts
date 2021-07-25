@@ -1,4 +1,4 @@
-import { ColorInput } from './types/ColorInput';
+import { ColorInput } from '@roller-skates/types';
 import { parseColor } from './parser';
 
 const toColorInput = <T extends string>(value: ColorInput<T>) => value

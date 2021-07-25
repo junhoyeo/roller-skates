@@ -1,6 +1,6 @@
 import { act, renderHook } from '@testing-library/react-hooks';
 
-import { ColorInput } from '@roller-skates/core/dist/types/ColorInput';
+import { ColorInput } from '@roller-skates/types';
 import { useColor } from './useColor';
 
 const toColorInput = <T extends string>(value: ColorInput<T>) => value
